@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pygame and Python artifacts
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific ignores
+assets/sounds/generated/  # Procedural audio cache
+assets/images/processed/  # Auto-generated textures
+highscore.json  # Local score file (use example_highscore.json instead)
+
+# Debug files
+*.log
+*.prof
+*.stats
+*.cache
+
+# Build/release ignores
+*.exe
+*.dmg
+*.app
+*.deb
+*.rpm
+*.msi
+*.zip
+*.tar.gz
+
+# Testing ignores
+.coverage
+htmlcov/
+.pytest_cache/
+
+# PyInstaller ignores
+*.spec
